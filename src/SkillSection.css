@@ -1,0 +1,48 @@
+/* SkillSection.css */
+
+.skill-section {
+ 
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skill-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px;
+  color: #ff6f00;
+  margin-bottom: 10px;
+}
+
+.card-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Rest of the CSS styles */
