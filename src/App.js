@@ -4,6 +4,7 @@ import { Link, Element, scroller } from 'react-scroll';
 import profile from './images/my_photo.jpeg'
 import resumePDF from './resume.pdf';
 import SkillSection from './SkillSection'
+import SkillImages from './SkillImages'
 
 function App() {
   const [activeSection, setActiveSection] = useState('');
@@ -106,8 +107,9 @@ function App() {
         </Element>
         <Element name="skills">
           <SkillSection/>
+          <SkillImages />
         </Element>
-        <Element name="contact" className="section">
+        <Element name="contact" className="section mrT-80">
           <h2 className="section-title">Contact</h2>
           <p className="section-text">Email: dattachavhan311@gmail.com</p>
           <p className="section-text">Phone: 9561688047</p>

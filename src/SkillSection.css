@@ -1,7 +1,7 @@
 
 .skill-section {
  
-  padding: 50px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -33,6 +33,7 @@
   .skill-cards {
     flex-direction: column;
     align-items: center;
+    margin: 0 30px;
   }
 
   .skill-card {

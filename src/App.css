@@ -117,6 +117,12 @@ body {
   color: #555;
 }
 
+@media (max-width: 768px) {
+  .about-details{
+    margin: 0 30px;
+  }
+}
+
 .about-name {
   font-size: 24px;
   font-weight: bold;
@@ -144,4 +150,8 @@ body {
 
 .download-button:hover {
   background-color: #333;
+}
+
+.mrT-80{
+  margin-top: 80px;
 }
